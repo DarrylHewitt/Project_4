@@ -14,7 +14,9 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
   <img width="691" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/5ae2d2c5-1a2b-4bbf-bc1f-e204502a5a4a">
 
-* A check was conducted for any missing values. 
+* A check was conducted for any missing values.
+
+  <img width="255" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/e7ccd36b-e45e-4eb2-a5be-7c71927ffb3c">
 
 * A quick statistical analysis was run using .describe() to spot outliers and potential errors. 
 
