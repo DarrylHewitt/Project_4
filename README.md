@@ -18,9 +18,13 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
   <img width="255" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/e7ccd36b-e45e-4eb2-a5be-7c71927ffb3c">
 
-* A quick statistical analysis was run using .describe() to spot outliers and potential errors. 
+* A quick statistical analysis was run using .describe() to spot outliers and potential errors.
+
+  <img width="460" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/ffe4fb40-2129-448d-87fb-48536210455c">
 
 * The refined dataset was then saved into a fresh CSV for easy access.
+
+  <img width="342" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/eb6dcfd1-6b11-4497-931c-ef56cccd8515">
 
 ## Random Forest Regression
 
