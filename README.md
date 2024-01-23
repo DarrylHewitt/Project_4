@@ -28,13 +28,13 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 ## The Database
 
-## Random Forest Regression
+## PCA
 
 ## Random Sample Consensus - RANSAC 
 
 ## Decision Tree
 
-## PCA
+## Random Forest Regression
 
 ## Model Comparison 
 
