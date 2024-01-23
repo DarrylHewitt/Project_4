@@ -10,4 +10,4 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 ## Data Cleaning
 
-We pooled together the scattered files into a unified dataset and included an extra column to specify the car's make. We conducted a thorough check for any missing values and ran a quick statistical analysis using .describe() to spot outliers and potential errors. The refined dataset was then saved into a fresh CSV for easy access.
+The separate files were pooled into a unified dataset and included an extra column to specify the car's make. A thorough check with conducted for any missing values and a quick statistical analysis was run using .describe() to spot outliers and potential errors. The refined dataset was then saved into a fresh CSV for easy access.
