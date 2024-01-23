@@ -26,6 +26,8 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
   <img width="342" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/eb6dcfd1-6b11-4497-931c-ef56cccd8515">
 
+## The Database
+
 ## Random Forest Regression
 
 ## Random Sample Consensus - RANSAC 
