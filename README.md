@@ -36,8 +36,8 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 ## Random Forest Regression
 
-## Model Comparison 
+## Model Comparison/Conclusion 
 
 ![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
 
-## Findings/conclusion
+## Reflections/Evaluation
