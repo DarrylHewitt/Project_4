@@ -28,6 +28,10 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 ## The Database
 
+A SQLite database was used to store the dataset. The data from the CSV file was read into a Pandas DataFrame and then committed to a newly-created SQLite database. 
+
+<img width="395" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/08abc655-1418-47e7-9639-5388ff9879df">
+
 ## PCA
 
 ## Random Sample Consensus - RANSAC 
