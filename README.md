@@ -17,3 +17,11 @@ The original dataset had been extracted from 100,000 used car listings and then 
 * A quick statistical analysis was run using .describe() to spot outliers and potential errors. 
 
 * The refined dataset was then saved into a fresh CSV for easy access.
+
+## Random Forest Regression
+
+## Random Sample Consensus - RANSAC 
+
+## Decision Tree
+
+## PCA
