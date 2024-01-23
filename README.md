@@ -25,3 +25,7 @@ The original dataset had been extracted from 100,000 used car listings and then 
 ## Decision Tree
 
 ## PCA
+
+## Model Comparison 
+
+![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
