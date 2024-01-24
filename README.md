@@ -35,6 +35,50 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 ## PCA
 
 ## Random Sample Consensus - RANSAC 
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f365dc11-131a-44ba-9dda-83088c234dbb)
+Predicting Car Prices with RANSACRegressor
+Data Preparation:
+Extracted features (X) from 'cars_sold_df,' excluding the 'price' column.
+Set the target variable (y) to the 'price' column.
+Handling Categorical Variables:
+Identified and one-hot encoded categorical columns in X.
+Train-Test Split:
+Split the dataset into training (80%) and testing (20%) sets.
+Ensured reproducibility with random_state=42.
+Model Initialization and Training:
+Initialized a RANSACRegressor model with a maximum of 100 trials.
+Trained the model on the training data.
+Result:
+Obtained a trained RANSACRegressor model capable of predicting car prices, considering potential outliers.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f00dc5c9-c446-4c92-a0e8-2a38e235e7b8)
+Model Training:
+Used RANSACRegressor with default settings on the training data.
+Prediction and Evaluation:
+Made predictions on the testing set.
+Evaluated using metrics: MAE, MSE, RMSE, R2.
+Results:
+Predicted car prices on the testing set and key evaluation metrics.
+Interpretation:
+Interpreted metrics: MAE, MSE, RMSE, R2 for understanding model performance.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f9048030-09d6-434e-a9d7-f430b77aef19)
+
+Model Training:
+Used RANSACRegressor with default settings on the training data.
+Prediction and Evaluation:
+Made predictions on the testing set.
+Evaluated using metrics: MAE, MSE, RMSE, R2.
+Results:
+Predicted car prices on the testing set and key evaluation metrics.
+Interpretation:
+Interpreted metrics: MAE, MSE, RMSE, R2 for understanding model performance.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/b4254f4a-f8d8-44c3-8946-06f87f4cb8bd)
+Prediction and Visualization:
+Made predictions on the testing set.
+Visualized results with a scatter plot, highlighting inliers and the RANSAC regression line.
+Check Data Sizes:
+Displayed sizes of the testing set and corresponding target variable.
+Outcome:
+Effectively demonstrated the model's handling of outliers through visualized results.
 
 ## Decision Tree
 
