@@ -45,3 +45,11 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 ![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
 
 ## Reflections/Evaluation
+
+## References
+
+| Reference Name | Description |
+| -------------- | ----------- |
+| [Kaggle.com](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes) | Used Car Dataset |
+| [Scikit-Learn.org](https://scikit-learn.org/stable/) | Python library to create, train, test, and evaluate Machine Learning Models |
+| [edX](https://www.edx.org/) | Data Bootcamp provider and Project Requirements definition |
