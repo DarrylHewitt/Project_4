@@ -32,6 +32,21 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 
 <img width="387" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/80e95796-89f8-4ad4-8841-0b106e7aea4f">
 
+## Visualisation
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f6a0e0a2-ee60-4d60-814c-fd6e7cbca413)
+To get a better idea of the data set we used a correlation matrix.
+
+Before building any machine learning model we looked at which variables are correlated, to can gain a better understanding about what’s most important for our models.
+
+Price measure against engine size and year of the car showed a positive relationship.
+
+Price measure against mpg and mileage showed a negative relationship.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/d7bd6bd9-c29f-4def-87b1-cc758865494b)
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/2285b8fe-93b3-4fcf-bf37-ad287c4a35db)
+
+To enhance the representation of data variation, a violin plot was employed. Notably, both automatic and semi-auto transmissions exhibit higher mean prices, accompanied by instances of extreme prices. The make of the car is also a critical factor in this analysis
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/be56a3e1-b540-4e44-92a3-952678ed6c27)
+
 ## PCA
 
 ## Random Sample Consensus - RANSAC 
