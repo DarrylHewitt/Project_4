@@ -121,6 +121,8 @@ Effectively demonstrated the model's handling of outliers through visualized res
 
 * A Random Forest Regressor was trained on the scaled training data with specified hyperparameters (50 estimators, max depth of 15).
 
+  <img width="411" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/c830c6a7-eedb-4e85-b647-7f7dba18deee">
+
 * The R-squared score was calculated on the scaled test data, resulting in a high value of 0.95, indicating a good fit. Mean Squared Error (MSE) was also calculated, yielding a value of approximately 4.95 million.
 
   <img width="193" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/d6ee20fd-39c7-4530-9f76-5e27862f493f">
