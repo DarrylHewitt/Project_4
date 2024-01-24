@@ -1,3 +1,12 @@
+# <center> Team Members </center>
+
+
+
+### <center> <a href="https://github.com/DarrylHewitt">DarrylHewitt</a> | <a href="https://github.com/Shirinatalie">Shirinatalie</a> | <a href="https://github.com/jkalsi1997">jkalsi1997</a> | <a href="https://github.com/RJBarker">RJBarker</a> </center> 
+
+<br>
+<hr>
+
 ### Table of Contents
 
   1. [Project Overview](#project-overview)
@@ -14,7 +23,9 @@
   7. [Evaluation](#reflectionsevaluation)
   8. [References](#references)
 
-# Project Overview
+<br>
+
+## Project Overview
 
 The goal of this project was to develop several predictive models for used car prices. We used a dataset with features such as model, year, transmission, mileage, fuel type, and engine size, to uncover patterns and relationships influencing the pricing of used cars.
 
