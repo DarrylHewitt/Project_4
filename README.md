@@ -148,9 +148,24 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 * A Decision Tree Regressor model was created with the parameters: `Max_Depth = 15` and `random_state = 0`.
 
+  ![image](https://github.com/DarrylHewitt/Project_4/assets/136759285/229d9192-87ce-474c-b956-8bff3cc83742)
+
+
 * Once the model was trained and used to predict the test values, the model results were:
   * R2 Score = 0.93
   * MSE = 6128960.49
+ 
+  ![image](https://github.com/DarrylHewitt/Project_4/assets/136759285/401e54e1-7c99-4949-b299-4e415d81a136)
+
+* A residual plot was created to visualise the models ability to predict the values. With the main cluster around the `0` mark, we can say the model was able to accurately predict a cars value.
+
+  <img width="350" alt="image" src=https://github.com/DarrylHewitt/Project_4/assets/136759285/5b448c2b-fe75-426c-990f-1cb53d339950>
+
+* Finally the top 10 feature importances were plotted to display what was driving the models price prediction, and also to compare with the Random Forest Model
+
+  <img width="350" alt="image" src=https://github.com/DarrylHewitt/Project_4/assets/136759285/9286d627-1cef-438f-b103-768149e8e555>
+
+
 
 ## Random Forest Regression
 
