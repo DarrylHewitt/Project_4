@@ -38,6 +38,18 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 
 ## Decision Tree
 
+* The 'price' column was separated as the target variable ('y'), and the remaining columns were used as features ('X').
+  
+* The dataset was split into training and testing sets using the train_test_split function.
+
+* Standard scaling was applied to the features using StandardScaler to normalize the data.
+
+* A Decision Tree Regressor model was created with the parameters: `Max_Depth = 15` and `random_state = 0`.
+
+* Once the model was trained and used to predict the test values, the model results were:
+  * R2 Score = 0.93
+  * MSE = 6128960.49
+
 ## Random Forest Regression
 
 * The 'price' column was separated as the target variable ('y'), and the remaining columns were used as features ('X').
@@ -59,6 +71,12 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 ![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
 
 ## Reflections/Evaluation
+
+* If we had the opportunity to repeat this project, we would use live API data to build the model on real-time data
+
+* Additionally, we could have used the mean squared error metric across all models to work out absolute error. 
+
+* It would also be good to use cross validation techniques to help gauge how well the model works with unseen data 
 
 ## References
 
