@@ -41,10 +41,12 @@ Before building any machine learning model we looked at which variables are corr
 Price measure against engine size and year of the car showed a positive relationship.
 
 Price measure against mpg and mileage showed a negative relationship.
+
 ![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/d7bd6bd9-c29f-4def-87b1-cc758865494b)
 ![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/2285b8fe-93b3-4fcf-bf37-ad287c4a35db)
 
 To enhance the representation of data variation, a violin plot was employed. Notably, both automatic and semi-auto transmissions exhibit higher mean prices, accompanied by instances of extreme prices. The make of the car is also a critical factor in this analysis
+
 ![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/be56a3e1-b540-4e44-92a3-952678ed6c27)
 
 ## PCA
