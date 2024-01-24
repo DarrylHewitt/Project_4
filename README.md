@@ -129,7 +129,7 @@ Effectively demonstrated the model's handling of outliers through visualized res
 
 ## Model Comparison/Conclusion 
 
-![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
+![image](https://github.com/DarrylHewitt/Project_4/assets/136759285/7bb354fb-9a3b-45e1-afc7-e4b88f702fda)
 
 ## Reflections/Evaluation
 
