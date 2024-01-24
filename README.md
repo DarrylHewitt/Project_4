@@ -10,7 +10,7 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 ## Data Cleaning
 
-* The separate files were pooled into a unified dataset and included an extra column to specify the car's make.
+* The separate files were pooled into a unified dataset and an additional column was included specifying the car's make.
 
   <img width="691" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/5ae2d2c5-1a2b-4bbf-bc1f-e204502a5a4a">
 
