@@ -32,9 +32,70 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 
 <img width="387" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/80e95796-89f8-4ad4-8841-0b106e7aea4f">
 
+## Visualisation
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f6a0e0a2-ee60-4d60-814c-fd6e7cbca413)
+To get a better idea of the data set we used a correlation matrix.
+
+Before building any machine learning model we looked at which variables are correlated, to can gain a better understanding about what’s most important for our models.
+
+Price measure against engine size and year of the car showed a positive relationship.
+
+Price measure against mpg and mileage showed a negative relationship.
+
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/d7bd6bd9-c29f-4def-87b1-cc758865494b)
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/2285b8fe-93b3-4fcf-bf37-ad287c4a35db)
+
+To enhance the representation of data variation, a violin plot was employed. Notably, both automatic and semi-auto transmissions exhibit higher mean prices, accompanied by instances of extreme prices. The make of the car is also a critical factor in this analysis
+
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/be56a3e1-b540-4e44-92a3-952678ed6c27)
+
 ## PCA
 
 ## Random Sample Consensus - RANSAC 
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f365dc11-131a-44ba-9dda-83088c234dbb)
+Predicting Car Prices with RANSACRegressor
+Data Preparation:
+Extracted features (X) from 'cars_sold_df,' excluding the 'price' column.
+Set the target variable (y) to the 'price' column.
+Handling Categorical Variables:
+Identified and one-hot encoded categorical columns in X.
+Train-Test Split:
+Split the dataset into training (80%) and testing (20%) sets.
+Ensured reproducibility with random_state=42.
+Model Initialization and Training:
+Initialized a RANSACRegressor model with a maximum of 100 trials.
+Trained the model on the training data.
+Result:
+Obtained a trained RANSACRegressor model capable of predicting car prices, considering potential outliers.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f00dc5c9-c446-4c92-a0e8-2a38e235e7b8)
+Model Training:
+Used RANSACRegressor with default settings on the training data.
+Prediction and Evaluation:
+Made predictions on the testing set.
+Evaluated using metrics: MAE, MSE, RMSE, R2.
+Results:
+Predicted car prices on the testing set and key evaluation metrics.
+Interpretation:
+Interpreted metrics: MAE, MSE, RMSE, R2 for understanding model performance.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/f9048030-09d6-434e-a9d7-f430b77aef19)
+
+Model Training:
+Used RANSACRegressor with default settings on the training data.
+Prediction and Evaluation:
+Made predictions on the testing set.
+Evaluated using metrics: MAE, MSE, RMSE, R2.
+Results:
+Predicted car prices on the testing set and key evaluation metrics.
+Interpretation:
+Interpreted metrics: MAE, MSE, RMSE, R2 for understanding model performance.
+![image](https://github.com/DarrylHewitt/Project_4/assets/140830640/b4254f4a-f8d8-44c3-8946-06f87f4cb8bd)
+Prediction and Visualization:
+Made predictions on the testing set.
+Visualized results with a scatter plot, highlighting inliers and the RANSAC regression line.
+Check Data Sizes:
+Displayed sizes of the testing set and corresponding target variable.
+Outcome:
+Effectively demonstrated the model's handling of outliers through visualized results.
 
 ## Decision Tree
 
