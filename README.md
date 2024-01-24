@@ -40,6 +40,20 @@ A SQLite database was used to store the dataset. The data from the CSV file was 
 
 ## Random Forest Regression
 
+* The 'price' column was separated as the target variable ('y'), and the remaining columns were used as features ('X').
+  
+* The dataset was split into training and testing sets using the train_test_split function.
+
+* Standard scaling was applied to the features using StandardScaler to normalize the data.
+
+* A Random Forest Regressor was trained on the scaled training data with specified hyperparameters (50 estimators, max depth of 15).
+
+* The R-squared score was calculated on the scaled test data, resulting in a high value of 0.95, indicating a good fit. Mean Squared Error (MSE) was also calculated, yielding a value of approximately 4.95 million.
+
+* The model was used to make predictions on the test set, and a DataFrame was created to compare predicted and actual values.
+
+* The importance of each feature in making predictions was determined using the Random Forest model, and the top 10 features were identified.
+
 ## Model Comparison/Conclusion 
 
 ![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
