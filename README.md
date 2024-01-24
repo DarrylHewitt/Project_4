@@ -162,15 +162,23 @@ The original dataset had been extracted from 100,000 used car listings and then 
 
 * A Random Forest Regressor was trained on the scaled training data with specified hyperparameters (50 estimators, max depth of 15).
 
+  <img width="411" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/c830c6a7-eedb-4e85-b647-7f7dba18deee">
+
 * The R-squared score was calculated on the scaled test data, resulting in a high value of 0.95, indicating a good fit. Mean Squared Error (MSE) was also calculated, yielding a value of approximately 4.95 million.
+
+  <img width="193" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/d6ee20fd-39c7-4530-9f76-5e27862f493f">
 
 * The model was used to make predictions on the test set, and a DataFrame was created to compare predicted and actual values.
 
+  <img width="326" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/1777daae-06a6-42a6-bd5b-d4451bffc875">
+
 * The importance of each feature in making predictions was determined using the Random Forest model, and the top 10 features were identified.
+
+  <img width="663" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/a1ae0978-a812-4982-99f8-a880a31a8a18">
 
 ## Model Comparison/Conclusion 
 
-![image](https://github.com/DarrylHewitt/Project_4/assets/136898379/5df0f0fa-ad80-408a-a0b3-1258fdcb0490)
+![image](https://github.com/DarrylHewitt/Project_4/assets/136759285/7bb354fb-9a3b-45e1-afc7-e4b88f702fda)
 
 ## Reflections/Evaluation
 
