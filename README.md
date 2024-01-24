@@ -123,6 +123,8 @@ Effectively demonstrated the model's handling of outliers through visualized res
 
 * The R-squared score was calculated on the scaled test data, resulting in a high value of 0.95, indicating a good fit. Mean Squared Error (MSE) was also calculated, yielding a value of approximately 4.95 million.
 
+  <img width="193" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/d6ee20fd-39c7-4530-9f76-5e27862f493f">
+
 * The model was used to make predictions on the test set, and a DataFrame was created to compare predicted and actual values.
 
   <img width="326" alt="image" src="https://github.com/DarrylHewitt/Project_4/assets/136898379/1777daae-06a6-42a6-bd5b-d4451bffc875">
