@@ -15,7 +15,7 @@
   4. [Database](#the-database)
   5. [Visualisations](#visualisation)
   6. [ML Models](#machine-learning-models)
-      * [PCA/Linear Regression](#pca)
+      * [PCA/Linear Regression](#pcalinear-regression)
       * [RANSAC](#random-sample-consensus---ransac)
       * [Decision Tree](#decision-tree)
       * [Random Forest](#random-forest-regression)
